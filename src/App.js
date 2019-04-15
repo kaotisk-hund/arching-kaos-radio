@@ -32,6 +32,17 @@ class RadioPlayer extends Component {
   }
 }
 
+class Signature extends Component {
+  render(){
+    return (
+       <p>
+         kaotisk hund 2019
+       </p>
+
+    );
+  }
+}
+
 class Player extends Component {
   render() {
     return (
@@ -57,6 +68,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         <RadioPlayer audioSource="http://radio.arching-kaos.tk:8000/demo.ogg"/>
+        <Signature/>
       </div>
     );
   }
