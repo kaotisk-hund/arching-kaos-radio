@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './arching-kaos-radio-logo.svg';
 import './App.css';
 
 class Header extends Component {
@@ -17,6 +17,7 @@ class Header extends Component {
       >
         Arching Kaos Radio
       </a>
+      {this.props.children}
     </header>
     );
   }
@@ -66,9 +67,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header/>
+        <Header>
         <RadioPlayer audioSource="http://radio.arching-kaos.tk:8000/demo.ogg"/>
+        <ShowList/>
         <Signature/>
+        </Header>
       </div>
     );
   }
