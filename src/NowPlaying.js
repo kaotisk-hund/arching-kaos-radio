@@ -18,7 +18,7 @@ class NowPlaying extends Component {
   }
 
   timerTick() {
-  	fetch("http://radio.arching-kaos:8000/status-json.xsl")
+  	fetch("http://radio.arching-kaos.tk:8000/status-json.xsl")
   	.then(res => res.json())
     .then(json => this.setState({
       icestats : json.icestats,
