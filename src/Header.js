@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './arching-kaos-radio-logo.svg';
+import logo from './assets/img/arching-kaos-radio-logo.gif';
 import './App.css';
 
 class Header extends Component {
