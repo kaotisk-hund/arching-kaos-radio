@@ -1,3 +1,21 @@
+# Arching Kaos Radio Website
+
+This project is the source code which builds the [radio.arching-kaos.tk](http://radio.arching-kaos.tk/). It 's supposed to be hosting our icecast Live stream and a Playlist in a Menu where our different mixes or recorded shows will show up in order to play on demand.
+
+**DONE**
+- Create a logo
+- Have a player for our live stream
+- Have metadata for each song/mix/show is played printed in site and get updated
+
+**TODO**
+- Menu Playlist
+- Background image (sky rotating day to night along the day)
+- Intergrate SSB so we can get the shows from that feed
+
+Bellow you can read the bootstrapped README.md from react. After cloning this repo, run `npm install` so you get the project install its depedencies and then follow the instructions below.
+
+----------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
