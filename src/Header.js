@@ -8,7 +8,7 @@ class Header extends Component {
     <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <p>
-        Welcome to Arching Kaos Radio. Enjoy music!
+        Welcome to Arching Kaos Radio<br/>Enjoy music!
       </p>
       <a
         className="App-link"
