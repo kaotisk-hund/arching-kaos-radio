@@ -11,7 +11,6 @@ class App extends Component {
     return (
       <div className="App">
         <Header>
-        <MenuContainer/>
         <RadioPlayer audioSource="http://radio.arching-kaos.tk:8000/demo.ogg"/>
         <NowPlaying/>
         <ShowList/>
