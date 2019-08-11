@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-//import './NewComponent.css';
+import './Signature.css';
 
 class Signature extends Component {
   render(){
     return (
-       <p>
+       <p id="signature">
          kaotisk hund 2019
        </p>
 
