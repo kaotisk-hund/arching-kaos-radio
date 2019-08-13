@@ -1,0 +1,10 @@
+.ShowList audio {
+	align: right;
+	max-width: 50px;
+}
+
+.ShowList {
+	text-align: left;
+	background-color: #6f2424;
+	padding: 5px;
+}
