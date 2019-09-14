@@ -7,13 +7,19 @@ import NowPlaying from './NowPlaying';
 import MenuContainer from './MenuContainer';
 
 class App extends Component {
+  constructor(props, context) {
+    super(props, context);
+    this.state = {
+      radio: "http://radio.arching-kaos.tk:8000/demo.ogg"
+    }
+  }
   render() {
     return (
       <div className="App">
         <Header>
-        <RadioPlayer audioSource="http://radio.arching-kaos.tk:8000/demo.ogg"/>
+        <RadioPlayer audioSource={this.state.radio}/>
         <NowPlaying/>
-        <ShowList/>
+        <ShowList onShowList={this.props.mix}/>
         <Signature/>
         </Header>
       </div>
