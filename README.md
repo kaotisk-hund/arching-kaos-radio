@@ -6,9 +6,9 @@ This project is the source code which builds the [radio.arching-kaos.tk](http://
 - Create a logo
 - Have a player for our live stream
 - Have metadata for each song/mix/show is played printed in site and get updated
+- Menu Playlist
 
 **TODO**
-- Menu Playlist
 - Background image (sky rotating day to night along the day)
 - Intergrate SSB so we can get the shows from that feed
 
