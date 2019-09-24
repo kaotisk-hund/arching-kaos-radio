@@ -1,7 +1,15 @@
+/*
+ * Kaotisk Hund 2019
+ * Βασικά στοιχεία CSS για τον ιστότοπο.
+ *
+ */
+
+/* Στοίχηση κειμένου στο κέντρο */
 .App {
   text-align: center;
 }
 
+/* Λεπτομέριες προβολής λογότυπου σταθμού */
 .App-logo {
   /*animation: App-logo-spin infinite 20s linear;*/
   height: 40vmin;
@@ -23,6 +31,7 @@
   background-size: cover;
 }
 
+/* Αφαίρεση στυλ κειμένου στους υπερσυνδέσμους */
 .App-link {
   text-decoration: none;
   color: #7fff84f0;
