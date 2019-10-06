@@ -35,8 +35,8 @@ class ShowList extends Component {
       <h3 onClick={this.handleMouseDown}>Mix list</h3>
       <div class="ShowList" visible>
         	{this.state.mixes.map(function(obj, idx){
-        		return (<table><td key={idx}>{obj.artist} - {obj.title}</td>
-        		<td width="10%"><Player audioSource={obj.dat}/></td></table>)
+        		return (<div class="list-item"><div class="list-info" key={idx}>{obj.artist} - {obj.title}</div>
+        		<div class="player-container"><Player audioSource={obj.dat}/></div></div>)
         	})}
         </div>
       </div>

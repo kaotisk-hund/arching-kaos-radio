@@ -1,9 +1,10 @@
 .ShowList audio {
-	max-width: 250px;
+	max-width: 100%;
+	width: 100%;
 }
 
 .ShowList {
-	text-align: left;
+	text-align: center;
 	background-color: #6f2424;
 	padding: 5px;
 	margin: 15px;
@@ -29,4 +30,20 @@
 /*	position: fixed;
 	top: 2px;
 	float: right;*/
+}
+
+
+.list-info {
+
+}
+
+.player-container {
+
+}
+
+.list-item {
+	padding: 5px;
+	background: #dfa9504d;
+	margin: 20px;
+	border-radius: 6px;
 }
