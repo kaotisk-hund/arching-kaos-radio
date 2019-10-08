@@ -8,19 +8,19 @@
 	background-color: #6f2424;
 	padding: 5px;
 	margin: 15px;
-	height: 50%;
+/*	height: 50%;
 	overflow-y: scroll;
-/*	display: none;*/
+	display: none;*/
 }
 
-.ShowList td {
+.ShowList div {
 	vertical-align: middle;
 }
 
 .ShowListContainer {
 /*	position: absolute;*/
-	height: 50%;
-	z-index: 50;
+/*	height: 50%;
+*/	z-index: 50;
 	
 
 
@@ -46,4 +46,15 @@
 	background: #dfa9504d;
 	margin: 20px;
 	border-radius: 6px;
+	/*background-image: url('assets/img/flame.png');*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.list-info {
+	background-color: none;
+	font-size: 20pt;
+	padding: 20px;
+	text-align: left;
 }
