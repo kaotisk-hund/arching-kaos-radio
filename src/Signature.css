@@ -5,3 +5,9 @@
 	bottom: 2px;
 	right: 5px;
 }
+
+#sign-link a, a:visited {
+	text-decoration: none;
+	color: white;
+}
+

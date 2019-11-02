@@ -5,7 +5,7 @@ class Signature extends Component {
   render(){
     return (
        <p id="signature">
-         kaotisk hund 2019
+         <a id="sign-link" href="https://www.kaotisk-hund.tk/">kaotisk hund 2019</a>
        </p>
 
     );
