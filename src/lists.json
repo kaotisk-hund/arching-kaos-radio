@@ -1,117 +1,124 @@
 [{
 	"artist": "Kaotisk Hund",
 	"title": "Shamanic meeting",
-	"dat":"http://radio.arching-kaos.tk:3000/38e6168b6ce28b15b8c7a3bb648f0f5462deaf385967bbc38e01fa4d4d52fa78/Kaotisk%20Hund%20-%202019%20-%20Shamanic%20meeting.ogg"
+	"dat": "http://radio.arching-kaos.tk:3000/38e6168b6ce28b15b8c7a3bb648f0f5462deaf385967bbc38e01fa4d4d52fa78/Kaotisk%20Hund%20-%202019%20-%20Shamanic%20meeting.ogg",
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Kaotisk%20Hund/Kaotisk%20Hund%20-%202019%20-%20Shamanic%20meeting.ogg"
 },{
 	"artist": "Miss Butterfly",
 	"title": "No dope No hope",
-	"dat": "http://radio.arching-kaos.tk:3000/80be1235cba4c0a167ce0a471a3ea33dad23e2629f35aae7e7ae94ab7e681bcd/Miss%20Butterfly%20-%20No%20dope%20No%20hope.ogg"
+	"dat": "http://radio.arching-kaos.tk:3000/80be1235cba4c0a167ce0a471a3ea33dad23e2629f35aae7e7ae94ab7e681bcd/Miss%20Butterfly%20-%20No%20dope%20No%20hope.ogg",
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Miss%20Butterfly/Miss%20Butterfly%20-%20No%20dope%20No%20hope.ogg"
 },
 {
 	"artist": "Uma Alma",
 	"title": "The Five Suns Gathering",
-	"dat": "http://radio.arching-kaos.tk:3000/04792220b3e8d578225ab7f211bb112aee118445f90f43be3b5bd2d650f82aa7/Uma%20Alma%20-%20The%20Five%20Suns%20Gathering.ogg"
+	"dat": "http://radio.arching-kaos.tk:3000/04792220b3e8d578225ab7f211bb112aee118445f90f43be3b5bd2d650f82aa7/Uma%20Alma%20-%20The%20Five%20Suns%20Gathering.ogg",
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Uma%20Alma/Uma%20Alma%20-%20The%20Five%20Suns%20Gathering.ogg"
 },
 {
 	"artist": "Miss Butterfly",
 	"title": "It 's a small prodigy",
-	"dat": "http://radio.arching-kaos.tk:3000/80be1235cba4c0a167ce0a471a3ea33dad23e2629f35aae7e7ae94ab7e681bcd/Miss%20Butterfly%20-%20It's%20a%20small%20prodigy.ogg"
+	"dat": "http://radio.arching-kaos.tk:3000/80be1235cba4c0a167ce0a471a3ea33dad23e2629f35aae7e7ae94ab7e681bcd/Miss%20Butterfly%20-%20It's%20a%20small%20prodigy.ogg",
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Miss%20Butterfly/Miss%20Butterfly%20-%20It%27s%20a%20small%20prodigy.ogg"
 },
 {
 	"artist": "Uma Alma",
 	"title": "Wave Me",
 	"dat": "http://radio.arching-kaos.tk:3000/04792220b3e8d578225ab7f211bb112aee118445f90f43be3b5bd2d650f82aa7/Uma Alma - Wave Me.ogg",
-	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Uma%20Alma%20-%20Wave%20Me.ogg"
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Uma%20Alma/Uma%20Alma%20-%20Wave%20Me.ogg"
 },
 {
 	"duration":4626,
 	"artist": "Uma Alma",
 	"title": "Chill Um",
 	"dat": "http://radio.arching-kaos.tk:3000/04792220b3e8d578225ab7f211bb112aee118445f90f43be3b5bd2d650f82aa7/Uma Alma - Chill Um.ogg",
-	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Uma_Alma_-_Chill_Um.ogg"
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Uma%20Alma/Uma%20Alma%20-%20Chill%20Um.ogg"
 },
 {
 	"duration":2739,
 	"artist": "Uma Alma",
 	"title": "Dubbing",
 	"dat": "http://radio.arching-kaos.tk:3000/04792220b3e8d578225ab7f211bb112aee118445f90f43be3b5bd2d650f82aa7/Uma Alma - Dubbing.ogg",
-	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Uma_Alma_-_Dubbing.ogg"
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Uma%20Alma/Uma%20Alma%20-%20Dubbing.ogg"
 },
 {
 	"duration":3599,
 	"artist": "Kaotisk Hund",
 	"title": "Summer chill or not",
 	"dat": "http://radio.arching-kaos.tk:3000/38e6168b6ce28b15b8c7a3bb648f0f5462deaf385967bbc38e01fa4d4d52fa78/Kaotisk Hund - 2019 - Summer Chill or Not.ogg",
-	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Kaotisk_Hund_-_Summer_chill_or_not.ogg"
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Kaotisk%20Hund/Kaotisk%20Hund%20-%202019%20-%20Summer%20Chill%20or%20Not.ogg"
 },
 {
 	"duration":6953,
 	"artist": "Kaotisk Hund",
 	"title": "Morning Goa Mix",
 	"dat": "http://radio.arching-kaos.tk:3000/38e6168b6ce28b15b8c7a3bb648f0f5462deaf385967bbc38e01fa4d4d52fa78/Kaotisk Hund - 2018 - Morning Goa Mix.ogg",
-	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Kaotisk_Hund_-_Morning_Goa_Mix.ogg"
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Kaotisk%20Hund/Kaotisk%20Hund%20-%202018%20-%20Morning%20Goa%20Mix.ogg"
 },
 {
 	"duration":3710,
 	"artist": "Kaotisk Hund",
 	"title": "Vol.1",
 	"dat": "http://radio.arching-kaos.tk:3000/38e6168b6ce28b15b8c7a3bb648f0f5462deaf385967bbc38e01fa4d4d52fa78/Kaotisk Hund - 2019 - Radio Sessions - Vol.1.ogg",
-	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Kaotisk_Hund_-_Vol.1.ogg"
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Kaotisk%20Hund/Kaotisk%20Hund%20-%202019%20-%20Radio%20Sessions%20-%20Vol.1.ogg"
 },
 {
 	"duration":3563,
 	"artist": "Kaotisk Hund",
 	"title": "Vol.2",
 	"dat": "http://radio.arching-kaos.tk:3000/38e6168b6ce28b15b8c7a3bb648f0f5462deaf385967bbc38e01fa4d4d52fa78/Kaotisk Hund - 2019 - Radio Sessions - Vol.2.ogg",
-	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Kaotisk_Hund_-_Vol.2.ogg"
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Kaotisk%20Hund/Kaotisk%20Hund%20-%202019%20-%20Radio%20Sessions%20-%20Vol.2.ogg"
 },
 {
 	"duration":2718,
 	"artist": "Bassquakes",
 	"title": "Halftime DNB Mix",
 	"dat": "http://radio.arching-kaos.tk:3000/dbb1a0eef1def83124da3b15403d86b189614782b96e375ddb42c5bf91c8b345/Bassquakes - 03MAY2019 - Halftime DNB Mix.ogg",
-	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Bassquakes_-_Halftime_DNB_Mix.ogg"
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Bassquakes/Bassquakes%20-%2003MAY2019%20-%20Halftime%20DNB%20Mix.ogg"
 },
 {
 	"duration":7562,
 	"artist": "Miss Butterfly",
 	"title": "Scrathing the Scrather",
 	"dat": "http://radio.arching-kaos.tk:3000/80be1235cba4c0a167ce0a471a3ea33dad23e2629f35aae7e7ae94ab7e681bcd/Miss Butterfly - Scrathing the Scrather (radio.arching).ogg",
-	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Miss_Butterfly_-_Scrathing_the_Scrather.ogg"
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Miss%20Butterfly/Miss%20Butterfly%20-%20Scrathing%20the%20Scrather%20%28radio.arching%29.ogg"
 },
 {
 	"duration":4588,
 	"artist": "Kaotisk Hund",
 	"title": "Vol.3",
 	"dat": "http://radio.arching-kaos.tk:3000/38e6168b6ce28b15b8c7a3bb648f0f5462deaf385967bbc38e01fa4d4d52fa78/Kaotisk Hund - 2019 - Radio Sessions - Vol.3.ogg",
-	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Kaotisk_Hund_-_Vol.3.ogg"
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Kaotisk%20Hund/Kaotisk%20Hund%20-%202019%20-%20Radio%20Sessions%20-%20Vol.3.ogg"
 },
 {
 	"duration":4199,
 	"artist": "Miss Butterfly",
 	"title": "Pretty Close",
 	"dat": "http://radio.arching-kaos.tk:3000/80be1235cba4c0a167ce0a471a3ea33dad23e2629f35aae7e7ae94ab7e681bcd/Miss Butterfly - Pretty Close (radio.archi)ng.ogg",
-	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Miss_Butterfly_-_Pretty_Close.ogg"
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Miss%20Butterfly/Miss%20Butterfly%20-%20Pretty%20Close%20%28radio.archi%29ng.ogg"
 },
 {
 	"duration":3569,
 	"artist": "Kaotisk Hund",
 	"title": "Dark Night Mix",
 	"dat": "http://radio.arching-kaos.tk:3000/38e6168b6ce28b15b8c7a3bb648f0f5462deaf385967bbc38e01fa4d4d52fa78/Kaotisk Hund - 2018 - Dark Night Mix.ogg",
-	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Kaotisk_Hund_-_Dark_Night_Mix.ogg"
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Kaotisk%20Hund/Kaotisk%20Hund%20-%202018%20-%20Dark%20Night%20Mix.ogg"
 },
 {
 	"artist": "Uma Alma",
 	"title": "Uma Vibrations Vol.1",
-	"dat": "http://radio.arching-kaos.tk:3000/04792220b3e8d578225ab7f211bb112aee118445f90f43be3b5bd2d650f82aa7/Uma Alma - Uma Vibrations Vol.1.ogg"
+	"dat": "http://radio.arching-kaos.tk:3000/04792220b3e8d578225ab7f211bb112aee118445f90f43be3b5bd2d650f82aa7/Uma Alma - Uma Vibrations Vol.1.ogg",
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/Uma%20Alma/Uma%20Alma%20-%20Uma%20Vibrations%20Vol.1.ogg"
 },
 {
 	"artist": "T.M.T.P. Collective",
 	"title": "Miserable mornings opposite of where you sleep",
-	"dat": "http://radio.arching-kaos.tk:3000/fe7e609c194f6c3df173946d770035afd36dcfe5bf6bad206aa11e01f0468766/TMTP - Ambient Industrial Mix 2.ogg"
+	"dat": "http://radio.arching-kaos.tk:3000/fe7e609c194f6c3df173946d770035afd36dcfe5bf6bad206aa11e01f0468766/TMTP - Ambient Industrial Mix 2.ogg",
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/TMTP/TMTP%20-%20Ambient%20Industrial%20Mix%202.ogg"
 },
 {
 	"artist": "T.M.T.P. Collective",
 	"title": "Shady noons at the place",
-	"dat": "http://radio.arching-kaos.tk:3000/fe7e609c194f6c3df173946d770035afd36dcfe5bf6bad206aa11e01f0468766/TMTP - Ambient Industrial Mix 1.ogg"
+	"dat": "http://radio.arching-kaos.tk:3000/fe7e609c194f6c3df173946d770035afd36dcfe5bf6bad206aa11e01f0468766/TMTP - Ambient Industrial Mix 1.ogg",
+	"ipfs": "http://radio.arching-kaos.tk:8080/ipns/mix-archives.arching-kaos.tk/TMTP/TMTP%20-%20Ambient%20Industrial%20Mix%201.ogg"
 }]

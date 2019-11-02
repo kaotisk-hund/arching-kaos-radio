@@ -36,7 +36,7 @@ class ShowList extends Component {
       <div class="ShowList" visible>
         	{this.state.mixes.map(function(obj, idx){
         		return (<div class="list-item"><div class="list-info" key={idx}><h4>{obj.artist}</h4><h5>{obj.title}</h5></div>
-        		<div class="player-container"><Player audioSource={obj.dat}/></div></div>)
+        		<div class="player-container"><Player audioSource={obj.ipfs}/></div></div>)
         	})}
         </div>
       </div>
