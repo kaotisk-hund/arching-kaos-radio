@@ -1,7 +1,7 @@
 {
   "name": "arching-kaos-radio-website",
-  "homepage": "http://radio.arching-kaos.tk/",
-  "version": "0.1.0",
+  "homepage": "https://radio.arching-kaos.tk/",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "axios": "^0.18.1",

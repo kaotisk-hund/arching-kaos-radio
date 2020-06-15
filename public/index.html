@@ -25,7 +25,19 @@
     <title>Arching Kaos Radio</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app. To listen to our radio station try with VLC-> File -> Open Network Stream and paste this link: {this.props.audioSource} . - Arching Kaos Radio</noscript>	
+    <noscript>You need to enable JavaScript to run this app. To listen to our radio station try with VLC-> File -> Open Network Stream and paste one of the links:
+    <ul>
+      <li><p>https://icecast.arching-kaos.tk/demo.ogg</p>
+        <a href="https://icecast.arching-kaos.tk/demo.ogg">Radio over internet</a>
+      </li>
+      <li><p>http://hs.arching-kaos.tk:8000/demo.ogg</p>
+        <a href="http://hs.arching-kaos.tk:8000/demo.ogg">Radio over cjdns network</a>
+      </li>
+      <li><p>http://ys.arching-kaos.tk:8000/demo.ogg</p>
+        <a href="http://ys.arching-kaos.tk:8000/demo.ogg">Radio over yggdrasil network</a>
+      </li>
+    </ul>
+    . - Arching Kaos Radio</noscript>	
     <div id="root"></div>
     <!--
       This HTML file is a template.
