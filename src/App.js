@@ -20,7 +20,9 @@ class App extends Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
-      radio: "http://radio.arching-kaos.tk:8000/demo.ogg" /* Θέτουμε την πηγή του σταθμού μας εδώ */
+      // old hack
+      // radio: document.URL.replace(/\/$/, "").replace("https", "http")+":8000/demo.ogg" /* Θέτουμε την πηγή του σταθμού μας εδώ */
+      radio : "https://icecast.arching-kaos.tk/demo.ogg"
     }
   }
   render() {
