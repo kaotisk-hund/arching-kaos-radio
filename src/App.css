@@ -29,6 +29,7 @@
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: cover;
+  padding: 20px;
 }
 
 /* Αφαίρεση στυλ κειμένου στους υπερσυνδέσμους */
@@ -44,4 +45,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+iframe {
+  width: 80%;
+  height: 540px;
+}
+
+.chat {
+  background-color: #256d55;
+  padding: 20px;
 }
