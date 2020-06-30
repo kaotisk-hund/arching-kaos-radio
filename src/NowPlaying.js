@@ -38,7 +38,7 @@ class NowPlaying extends Component {
   }
 
   componentDidMount() {
-  	setInterval(this.timerTick, 1000);
+  	setInterval(this.timerTick, 10000);
   }
 
   render() {
