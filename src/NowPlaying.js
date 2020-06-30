@@ -5,7 +5,15 @@ var fetch = require('node-fetch');
 class NowPlaying extends Component {
   constructor(props, context) {
   	super(props, context);
-
+/*fetch("https://icecast.arching-kaos.tk/status-json.xsl")
+    .then(res => res.json())
+    .then(json => this.state({
+      icestats : json.icestats,
+      source : json.icestats.source,
+      genre : json.icestats.source.genre,
+      title : json.icestats.source.title,
+      artist :  json.icestats.source.artist
+    }));*/
   	this.state = {
   		icestats: null,
   		source: null,
