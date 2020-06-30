@@ -10,7 +10,8 @@ import RadioPlayer from './RadioPlayer';
 import Signature from './Signature';
 import ShowList from './ShowList';
 import NowPlaying from './NowPlaying';
-import MenuContainer from './MenuContainer';
+//import MenuContainer from './MenuContainer';
+//import IncomingConnection from './IncomingConnection';
 
 // import SsbTest from './ssbTest'
 
