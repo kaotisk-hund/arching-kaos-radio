@@ -6,7 +6,7 @@ class RadioPlayer extends Component {
   render() {
     return (
       <div className="RadioPlayer">
-        <Player audioSource={this.props.audioSource}/>
+        <Player class={this.props.className} audioSource={this.props.audioSource}/>
       </div>
     );
   }
