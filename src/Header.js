@@ -17,11 +17,6 @@ class Header extends Component {
       <p>
         Welcome to Arching Kaos Radio!<br/>Enjoy music!
       </p>
-      <span>
-        <a href="#mixes">Mixes</a>,
-        <a href="#chat">Chat</a>
-      </span>
-      <hr/>
       {this.props.children}
     </header>
     );
