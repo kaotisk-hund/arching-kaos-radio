@@ -32,7 +32,7 @@ class ShowList extends Component {
 
   render(state, props) {
     return ( <div id="mixes" className="ShowListContainer">
-      <h3 onClick={this.handleMouseDown}>Mix list</h3>
+      <h3 onClick={this.handleMouseDown}>Mixes</h3>
       <div className="ShowList">
         	{this.state.mixes.map(function(obj, idx){
         		return (
