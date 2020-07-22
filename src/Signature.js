@@ -4,10 +4,14 @@ import './Signature.css';
 class Signature extends Component {
   render(){
     return (
-       <p id="signature">
-         <a id="sign-link" href="https://www.kaotisk-hund.tk/">kaotisk hund 2019-2020</a>
-       </p>
-
+       <div id="foot">
+         <p id="signature">
+           An&nbsp;
+           <a id="sign-link" rel="noopener noreferrer" href="https://arching-kaos.tk" target="_blank">Arching Kaos</a>&nbsp;
+           project by&nbsp;
+           <a id="sign-link" rel="noopener noreferrer" href="https://www.kaotisk-hund.tk/" target="_blank">kaotisk hund</a>&nbsp;2019-2020
+         </p>
+       </div>
     );
   }
 }
