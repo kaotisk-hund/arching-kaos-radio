@@ -1,22 +1,34 @@
 import React, { Component } from "react";
 import "./Menu.css";
- 
+import logo from './assets/img/arching-logo-16.png';
+import NowPlaying from './NowPlaying';
+import RadioPlayer from './RadioPlayer';
+
 class Menu extends Component {
-  render() {
-    var visibility = "hide";
- 
-    if (this.props.menuVisibility) {
-      visibility = "show";
+  constructor(props, context) {
+    super(props, context);
+    this.state = {
+      // old hack
+      // radio: document.URL.replace(/\/$/, "").replace("https", "http")+":8000/demo.ogg" /* Θέτουμε την πηγή του σταθμού μας εδώ */
+      radio : "https://icecast.arching-kaos.tk/demo.ogg"
     }
- 
+  }
+
+  render() {
     return (
-      <div id="flyoutMenu"
-           onMouseDown={this.props.handleMouseDown} 
-           className={visibility}>
-        <h2><a href="#">Home</a></h2>
-        <h2><a href="#">About</a></h2>
-        <h2><a href="#">Contact</a></h2>
-        <h2><a href="#">Search</a></h2>
+      <div id="menu">
+        <div class="line menu-left">
+        <img src={logo} className="menu-logo" alt="Arching Kaos Radio"/>
+        <p class="title">Arching Kaos Radio</p>
+        </div>
+        <div class="line menu-right">
+        <a href="#mixes">Mixes</a>&nbsp;|&nbsp; 
+        <a href="#chat">Chat</a>
+        </div>
+        <div class="">
+        <NowPlaying class="top-now"/>
+        <RadioPlayer class="top-radio" className="top-radio" audioSource={this.state.radio}/>
+        </div>
       </div>
     );
   }
