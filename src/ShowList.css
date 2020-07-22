@@ -8,6 +8,7 @@
 	background-color: #6f2424;
 	padding: 5px;
 	margin: 15px;
+	color: white;
 /*	height: 50%;
 	overflow-y: scroll;
 	display: none;*/
@@ -30,6 +31,7 @@
 /*	position: fixed;
 	top: 2px;
 	float: right;*/
+	color: white;
 }
 
 
