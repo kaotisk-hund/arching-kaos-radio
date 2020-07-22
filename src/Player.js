@@ -10,9 +10,9 @@ constructor(props, context) {
 
   render() {
     return (
-      <audio xmlns="http://www.w3.org/1999/xhtml" controls="controls" preload="none" autoPlay={false} >
+      <audio xmlns="http://www.w3.org/1999/xhtml" controls="controls" preload="none" autoPlay={false} class={this.props.className}>
           <source src={this.props.audioSource} type="application/ogg" />
-          Sorry, seems your browser can't open it. Try with VLC-> File -> Open Network Stream and paste this link: {this.props.audioSource}
+          Sorry, seems your browser can't play this.
         </audio>
     );
   }
