@@ -43,7 +43,7 @@ class NowPlaying extends Component {
 
   render() {
     return (
-      <div className="NowPlaying">
+      <div class="NowPlaying">
         {this.state.artist} - {this.state.title}
       </div>
     );
