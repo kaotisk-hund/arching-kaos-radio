@@ -6,10 +6,13 @@
 
 import React, { Component } from 'react';
 import Header from './Header';
-import RadioPlayer from './RadioPlayer';
+//import RadioPlayer from './RadioPlayer';
 import Signature from './Signature';
 import ShowList from './ShowList';
-import NowPlaying from './NowPlaying';
+//import NowPlaying from './NowPlaying';
+import Chat from './Chat';
+import Menu from './Menu';
+//import Footer from './Footer';
 //import MenuContainer from './MenuContainer';
 //import IncomingConnection from './IncomingConnection';
 
@@ -31,14 +34,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header>
-        <RadioPlayer audioSource={this.state.radio}/>
-        <NowPlaying/>
+        <Menu/>
         </Header>
-        <div class="chat">
-	      <h3 id="chat">Chat</h3>
-        <iframe src="https://kiwiirc.com/nextclient/?settings=ac86fb655de51eb40bd6d884a8d96e64"></iframe>
-        </div>
         <ShowList onShowList={this.props.mix}/>
+        <Chat/>
         <Signature/>
       </div>
     );
