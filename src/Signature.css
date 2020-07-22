@@ -1,13 +1,26 @@
 #signature {
-	font-size: 50%;
+	font-size: 75%;
+	color: white;
 	text-align: right;
-	position: fixed;
-	bottom: 2px;
-	right: 5px;
 }
 
-#sign-link a, a:visited {
-	text-decoration: none;
+#sign-link a {
+	text-decoration-style: none;
 	color: white;
 }
+/*
+#sign-link a:visited {
+	text-decoration-style: none;
+	color: white;
+}*/
 
+#foot {
+	background-color: #282c34;
+	padding: 10px;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	max-width: 100%;
+	width: 100%;
+	max-height: 100%;
+}
