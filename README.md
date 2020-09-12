@@ -10,7 +10,20 @@ This project is the source code which builds the [radio.arching-kaos.tk](http://
 
 **TODO**
 - Background image (sky rotating day to night along the day)
-- Intergrate SSB so we can get the shows from that feed
+
+## Intergrated with arching-kaos-api
+
+Now the website of our radio station, Arching Kaos Radio, is intergrated with its sister project [arching-kaos-api](http://y.kaotisk-hund.tk:3000/kaotisk/arching-kaos-api).
+
+## Intergration with Icecast
+
+The website asks the metadata of the current playing stream, which are updated every `INTERVAL` seconds.
+
+## IRC communication
+
+There is an added kiwiIRC instance connected to our IRC server `irc.ed12.ga` over TLS connection.
+
+##  About ReactJS
 
 Bellow you can read the bootstrapped README.md from react. After cloning this repo, run `npm install` so you get the project install its depedencies and then follow the instructions below.
 
