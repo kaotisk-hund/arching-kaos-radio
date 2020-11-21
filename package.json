@@ -1,6 +1,6 @@
 {
   "name": "arching-kaos-radio-website",
-  "homepage": "https://radio.arching-kaos.tk/",
+  "homepage": "https://radio.arching-kaos.com/",
   "version": "0.2.0",
   "private": true,
   "dependencies": {
