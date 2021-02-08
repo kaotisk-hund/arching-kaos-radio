@@ -24,7 +24,7 @@ class Menu extends Component {
         <div class="line menu-right">
         <a href="#mixes">Mixes</a>&nbsp;|&nbsp; 
         <a href="#chat">Chat</a>&nbsp;|&nbsp;
-        <a href="https://api.arching-kaos.com" target="_blank">Upload guide</a>
+        <a href="https://api.arching-kaos.com" target="_blank" rel="noopener noreferrer">Upload guide</a>
         </div>
         <div class="">
         <NowPlaying class="top-now"/>
