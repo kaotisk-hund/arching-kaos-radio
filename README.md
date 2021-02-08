@@ -1,11 +1,11 @@
 # Arching Kaos Radio Website
 
 ## Branch: ptyxiaki
-
+As of 2021.02.08
 
 # Further description
 
-This project is the source code which builds the [radio.arching-kaos.tk](http://radio.arching-kaos.tk/). It 's supposed to be hosting our icecast Live stream and a Playlist in a Menu where our different mixes or recorded shows will show up in order to play on demand.
+This project is the source code which builds the [radio.arching-kaos.com](https://radio.arching-kaos.com/). It 's supposed to be hosting our icecast Live stream and a Playlist in a Menu where our different mixes or recorded shows will show up in order to play on demand.
 
 **DONE**
 - Create a logo
@@ -13,12 +13,9 @@ This project is the source code which builds the [radio.arching-kaos.tk](http://
 - Have metadata for each song/mix/show is played printed in site and get updated
 - Menu Playlist
 
-**TODO**
-- Background image (sky rotating day to night along the day)
-
 ## Intergrated with arching-kaos-api
 
-Now the website of our radio station, Arching Kaos Radio, is intergrated with its sister project [arching-kaos-api](http://y.kaotisk-hund.tk:3000/kaotisk/arching-kaos-api).
+Now the website of our radio station, Arching Kaos Radio, is intergrated with its sister project [arching-kaos-api](https://git.arching-kaos.net/kaotisk/arching-kaos-api).
 
 ## Intergration with Icecast
 
@@ -26,7 +23,9 @@ The website asks the metadata of the current playing stream, which are updated e
 
 ## IRC communication
 
-There is an added kiwiIRC instance connected to our IRC server `irc.ed12.ga` over TLS connection.
+There is an added kiwiIRC instance connected to our IRC server `irc.arching-kaos.net` over TLS connection.
+
+----------
 
 ##  About ReactJS
 
