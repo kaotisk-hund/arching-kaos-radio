@@ -25,6 +25,24 @@ The website asks the metadata of the current playing stream, which are updated e
 
 There is an added kiwiIRC instance connected to our IRC server `irc.arching-kaos.net` over TLS connection.
 
+## Install
+
+Clone this repository and cd to it, like:
+
+```sh
+git clone https://git.arching-kaos.net/kaotisk/arching-kaos-radio
+cd arching-kaos-radio
+```
+With docker you can run to build the image:
+
+`docker build -t arching-kaos-radio .`
+
+and this to run it exposing port 5000 to localhost as well:
+
+`docker run -p 5000:5000 archkaradio`
+
+
+
 ----------
 
 ##  About ReactJS
