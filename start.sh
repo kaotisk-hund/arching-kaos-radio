@@ -1,3 +1,3 @@
 #!/bin/sh
 docker build -t arching-kaos-radio .
-docker run -d -p 5000:5000 archkaradio
+docker run --name arching-kaos-radio -d -p 5000:5000 arching-kaos-radio
