@@ -1,7 +1,7 @@
 {
   "name": "arching-kaos-radio-website",
-  "homepage": "https://radio.arching-kaos.tk/",
-  "version": "0.2.0",
+  "homepage": "https://radio.arching-kaos.com/",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
     "@babel/helper-call-delegate": "^7.10.4",
