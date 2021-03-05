@@ -1,19 +1,16 @@
 {
   "name": "arching-kaos-radio-website",
-  "homepage": "https://radio.arching-kaos.com/",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "private": true,
   "dependencies": {
-    "@babel/helper-call-delegate": "^7.10.4",
-    "axios": "^0.18.1",
-    "babel": "^6.23.0",
-    "icecast-monitor": "^1.0.2",
-    "node-fetch": "^2.6.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.13.1",
-    "react-native-ssb-client": "^7.0.0",
-    "react-scripts": "2.1.8",
-    "ssb-server": "^15.1.1"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "node-fetch": "^2.6.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -22,12 +19,21 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
