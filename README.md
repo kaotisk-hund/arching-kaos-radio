@@ -27,6 +27,11 @@ Clone this repository and cd to it, like:
 git clone https://git.arching-kaos.net/kaotisk/arching-kaos-radio
 cd arching-kaos-radio
 ```
+### Configure
+
+`./configure.sh` sets you up with some basic names to use. Change sed commands accordingly to your needs.
+
+
 ### Manually
 
 With docker you can run to build the image:
