@@ -1,5 +1,5 @@
 /*
- * Kaotisk Hund 2019-2020
+ * Kaotisk Hund 2019-2021
  * Βασική εφαρμογή του ιστότοπού μας 
  *
  */
@@ -16,7 +16,7 @@ class App extends Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
-      radio : "https://icecast.arching-kaos.tk/demo.ogg" // Στατική διεύθυνση του βασικού μας stream
+      radio : "http://{$ICECAST_SERVER_NAME}/demo.ogg" // Στατική διεύθυνση του βασικού μας stream
     }
   }
   render() {

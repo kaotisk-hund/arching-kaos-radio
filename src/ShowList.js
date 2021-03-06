@@ -17,7 +17,7 @@ class ShowList extends Component {
 
   }
   timerTick(){
-    fetch("https://api.arching-kaos.com/shows")
+    fetch("http://{$API_SERVER_NAME}/shows")
     .then(res => res.json())
     .then(json => this.setState({
       mixes: json,

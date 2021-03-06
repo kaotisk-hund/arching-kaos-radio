@@ -26,7 +26,7 @@ class NowPlaying extends Component {
   }
 
   timerTick() {
-  	fetch("https://icecast.arching-kaos.com/status-json.xsl")
+  	fetch("http://{$ICECAST_SERVER_NAME}/status-json.xsl")
   	.then(res => res.json())
     .then(json => this.setState({
       icestats : json.icestats,

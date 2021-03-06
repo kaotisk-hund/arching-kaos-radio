@@ -1,11 +1,11 @@
 /*
- * Kaotisk Hund 2019-2020
+ * Kaotisk Hund 2019-2021
  * Εφαρμογή συνομιλιών του ιστότοπού μας, χρησιμοποιώντας web-client
  * της KiwiIRC.com για να συνδεθούμε σε IRC server.
  * Embed KiwiIRC-web client application. We use it to connect to an
  * IRC server.
- * 
- * 
+ *
+ *
  */
 
 import React, { Component } from 'react';
@@ -15,7 +15,7 @@ class Chat extends Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
-      ircwebclient : "https://kiwiirc.com/nextclient/?settings=82305268c11cda29b805c33f03156815" // Εδώ βάουμε το link
+      ircwebclient : "{$IRC_CLIENT}" // Εδώ βάουμε το link
     }
   }
   render() {

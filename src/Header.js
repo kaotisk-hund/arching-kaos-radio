@@ -9,7 +9,7 @@ class Header extends Component {
       <img src={logo} className="App-logo" alt="logo" />
       <a
         className="App-link"
-        href="http://radio.arching-kaos.tk/"
+        href="http://{$RADIO_SERVER_NAME}/"
         rel="noopener noreferrer"
       >
         <h2>Arching Kaos Radio</h2>

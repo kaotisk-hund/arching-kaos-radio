@@ -10,7 +10,7 @@ class Menu extends Component {
     this.state = {
       // old hack
       // radio: document.URL.replace(/\/$/, "").replace("https", "http")+":8000/demo.ogg" /* Θέτουμε την πηγή του σταθμού μας εδώ */
-      radio : "https://icecast.arching-kaos.com/demo.ogg"
+      radio : "http://{$ICECAST_SERVER_NAME}/demo.ogg"
     }
   }
 
@@ -22,9 +22,9 @@ class Menu extends Component {
         <p class="title">Arching Kaos Radio</p>
         </div>
         <div class="line menu-right">
-        <a href="#mixes">Mixes</a>&nbsp;|&nbsp; 
+        <a href="#mixes">Mixes</a>&nbsp;|&nbsp;
         <a href="#chat">Chat</a>&nbsp;|&nbsp;
-        <a href="https://api.arching-kaos.com" target="_blank" rel="noopener noreferrer">Upload guide</a>
+        <a href="http://{$API_SERVER_NAME}" target="_blank" rel="noopener noreferrer">Upload guide</a>
         </div>
         <div class="">
         <NowPlaying class="top-now"/>
