@@ -1,11 +1,10 @@
 /*
  * Kaotisk Hund 2019-2021
- * Εφαρμογή συνομιλιών του ιστότοπού μας, χρησιμοποιώντας web-client
- * της KiwiIRC.com για να συνδεθούμε σε IRC server.
- * Embed KiwiIRC-web client application. We use it to connect to an
- * IRC server.
- *
- *
+ * Application for instant messaging through the webpages.
+ * 
+ * We use an iframe to emb our IRC clients' web interface
+ * to our webpage.
+ * 
  */
 
 import React, { Component } from 'react';
@@ -15,11 +14,11 @@ class Chat extends Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
-      ircwebclient : "{$IRC_CLIENT}" // Εδώ βάουμε το link
+      ircwebclient : "{$IRC_CLIENT}" // Link goes here
     }
   }
   render() {
-    /* Η βασική διάταξη της ιστοσελίδας μας */
+    /* Basic layout */
     return (
         <div id="chat" class="chat">
         <h3>Chat</h3>

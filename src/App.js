@@ -1,6 +1,6 @@
 /*
  * Kaotisk Hund 2019-2021
- * Βασική εφαρμογή του ιστότοπού μας 
+ * Basic application for our webpage
  *
  */
 
@@ -11,16 +11,16 @@ import ShowList from './ShowList';
 import Chat from './Chat';
 import Menu from './Menu';
 
-/* Class της εφαρμογής μας που προβάλει τον ιστότοπο του σταθμού μας */
+/* Class of our application, returning the radio station's webpage */
 class App extends Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
-      radio : "http://{$ICECAST_SERVER_NAME}/demo.ogg" // Στατική διεύθυνση του βασικού μας stream
+      radio : "http://{$ICECAST_SERVER_NAME}/demo.ogg" // Static link to our main stream source
     }
   }
   render() {
-    /* Η βασική διάταξη της ιστοσελίδας μας */
+    /* Basic layout of the webpage */
     return (
       <div className="App">
         <Header>
