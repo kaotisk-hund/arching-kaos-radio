@@ -29,7 +29,7 @@ class Menu extends Component {
         <a href="#mixes">Mixes</a>&nbsp;|&nbsp;
         <a href="#chat">Chat</a>&nbsp;|&nbsp;
         <a href="http://{$API_SERVER_NAME}" target="_blank" rel="noopener noreferrer">Upload guide</a>
-        </div> // Link to the API goes here
+        </div> 
         <div class="">
         <NowPlaying class="top-now"/>
         <RadioPlayer class="top-radio" className="top-radio" audioSource={this.state.radio}/>
